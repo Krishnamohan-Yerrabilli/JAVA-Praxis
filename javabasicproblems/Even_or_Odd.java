@@ -15,7 +15,7 @@ public class Even_or_Odd {
         if (result == 0){ // if condition is true then only it will go inside
             System.out.println("The number you entered " + num + "is Even"); // printing the statement on display
         }
-        else{ // if condition is true then only it will go inside
+        else{ // if condition is false then only it will go inside
             System.out.println("The number you entered " + num + "is Odd");  // printing the statement on display
         }
 
