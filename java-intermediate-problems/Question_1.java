@@ -17,7 +17,7 @@ public class Question_1 {
         while(len >= 1){//this conditions will be true until we have length of the userinput is greater then or equal to 1
             op = user_in % 10;//by using this logic we get the last digit
             sum = sum + op;//the last digit is stored in sum for later loop sum all the digits for example input 234(2+3+4)sum = 9
-            mul = mul * op;//the last digit is stored in sum for later loop multiply all the digits for example input 234(2*3*4)sum = 24
+            mul = mul * op;//the last digit is stored in mul for later loop multiply all the digits for example input 234(2*3*4)mul = 24
             user_in /= 10;//this updates the user_in value to remaining numbers only store integer not float value for example 234/10 = 23
             len--;//as the loop running the length of the string (original number) will be decreased
         }
