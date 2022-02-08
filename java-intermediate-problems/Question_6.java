@@ -29,6 +29,6 @@ public class Question_6 {
             mul = input * 10.22;
         }
         System.out.println("\nAmount you want to pay: " + (float)(mul));
-        System.out.println("Bill status unpaid, Thank you for using APCPDCL");
+        System.out.println("Bill status unpaid, Thank you for using APCPDCL.");
     }
 }
