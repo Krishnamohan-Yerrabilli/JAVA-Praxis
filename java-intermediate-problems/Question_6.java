@@ -1,5 +1,4 @@
-//Find the factorial of the number
-
+//Calcualate Electricity Bill
 package com.company;
 
 import java.util.Scanner;
