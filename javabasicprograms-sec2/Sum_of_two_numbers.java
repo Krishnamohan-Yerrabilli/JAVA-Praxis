@@ -1,4 +1,4 @@
-//Take integer inputs till the user enters 0 and print the largest number from all.
+//Take two input's from the user and add them
 
 package com.company;
 
