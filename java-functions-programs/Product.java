@@ -12,3 +12,4 @@ public class Product {
         return a * b;
     }
 }
+
