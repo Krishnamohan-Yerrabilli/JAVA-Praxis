@@ -5,8 +5,8 @@ public class Question_10 {
         // Calculate Commission Percentage
         Scanner in = new Scanner(System.in);
         System.out.print("Enter the amount of sales: ");
-        double sales = in.nextInt();
-        System.out.print("Enter the commission percentage: ");
+        double sales = in.nextInt(); 
+        System.out.print("Enter commision percentage: ");
         double comper = in.nextInt();
         double commission = (comper/100) * sales;
         System.out.println("You're commission amount is " + commission);
