@@ -13,7 +13,7 @@ public class Question_5 {
         double mul = 1;
 
         for (double i = op; i >= 1 ; i--) {
-            mul = mul * i;
+            mul = mul * i; //adding multiple value to n(i)
         }
 
         System.out.println("\nThe factorial of the number " + (int)(input) + " is " + (int)(mul));
